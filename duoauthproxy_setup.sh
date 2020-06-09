@@ -7,6 +7,8 @@
 #install requirements
 yum install -y gcc make libffi-devel perl zlib-devel
 
+#allow radius through firewall-cmd
+sudo firewall-cmd --add-service=radius
 
 #download latest Duo version
 if [ test -f duoauthproxy-latest-src.tgz ]
