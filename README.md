@@ -23,10 +23,19 @@ duo-auth-proxy/./duoauthproxy_setup.sh
 ```
 4. Follow prompts to create directory, user, and group
 5. Edit the config file as needed per your requirements
+```
+vi /opt/duoauthproxy/conf/authproxy.cfg
+```
 6. Start the service
-```/opt/duoauthproxy/bin/authproxyctl start
+```
+/opt/duoauthproxy/bin/authproxyctl start
+```
+7. Run the connectivity tool to test
+```
+sudo /opt/duoauthproxy/bin/authproxy_connectivity_tool
 ```
 
 Future updates wish-list:
 1. Error-checking
+2. Add example config file for different scenarios
 
