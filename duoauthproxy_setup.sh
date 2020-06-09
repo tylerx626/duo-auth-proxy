@@ -39,4 +39,4 @@ make -C /opt/duoauthproxy_latest
 sudo rm duoauthproxy-latest-src.tgz
 
  
-#Now test and make sure auth is working.
+#Now edit /opt/duoauthproxy/conf/authproxy.cfg to reflect your environment
