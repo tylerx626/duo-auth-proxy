@@ -21,9 +21,11 @@ chmod +x duo-centos/duoauthproxy_setup.sh
 ```
 duo-auth-proxy/./duoauthproxy_setup.sh
 ```
-4. Enter Duo config info when prompted
-5. Fix all the errors and run it again
-6. Repeat until it works ;-P
+4. Follow prompts to create directory, user, and group
+5. Edit the config file as needed per your requirements
+6. Start the service
+```/opt/duoauthproxy/bin/authproxyctl start
+```
 
 Future updates wish-list:
 1. Error-checking
