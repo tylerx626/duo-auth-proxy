@@ -33,7 +33,7 @@ tar zxf duoauthproxy-latest-src.tgz -C /opt/duoauthproxy_latest --strip-componen
 #build and install auth proxy
 make -C /opt/duoauthproxy_latest 
 /opt/duoauthproxy_latest/duoauthproxy-build/./install
-
+#follow through the prompts to create a locked down user and group
 
 #cleanup
 sudo rm duoauthproxy-latest-src.tgz
