@@ -32,7 +32,7 @@ tar zxf duoauthproxy-latest-src.tgz -C /opt/duoauthproxy_latest --strip-componen
 
 #build and install auth proxy
 make -C /opt/duoauthproxy_latest 
-/opt/duoauthproxy_latest/./install
+/opt/duoauthproxy_latest/duoauthproxy-build/./install
 
 
 #cleanup
